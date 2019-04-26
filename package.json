@@ -1,0 +1,22 @@
+{
+  "name": "luxurylodging_api",
+  "version": "1.0.0",
+  "description": "LuxuryLodging_Api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Jarrick Finkley",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.4",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.11",
+    "sqlite": "^3.0.3"
+  }
+}
